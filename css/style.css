@@ -89,9 +89,16 @@ h3{
 .background-section1{
   background-image: url(../img/bg-home-hero-3.svg);
   background-size: cover;
-  height: 400px;
+  min-height: 400px;
   width: inherit;
   background-position: bottom;
+}
+
+.create-account{
+  width: inherit;
+  border: none;
+  color: white;
+  background-color: #1633FF;
 }
 
 /* section 2 */
