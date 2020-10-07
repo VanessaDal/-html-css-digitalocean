@@ -14,6 +14,20 @@
 
 /* regole di debug */
 
+/* regole generali */
+h1{
+  text-align: left;
+
+}
+
+h2{
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+}
+
 /* nav section */
 
 .navbar-default {
@@ -33,6 +47,43 @@
   border-color: #006AFF;
 }
 
+@media (max-width: 1200px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}
+
 /* section 1 */
 
 .background-section1{
@@ -41,7 +92,6 @@
   height: 400px;
   width: inherit;
   background-position: bottom;
-  /* background-position: bottom; */
 }
 
 /* section 2 */
@@ -68,9 +118,13 @@
   margin: auto;
 }
 
-/* .carousel-control.right{
-  background-color: #F3F5F9;
-} */
+.carousel-control.right{
+  background-image: none;
+}
+
+.carousel-control.left{
+  background-image: none;
+}
 
 .carousel-inner p:nth-child(3){
   text-align: center;
