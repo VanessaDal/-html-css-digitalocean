@@ -36,10 +36,11 @@
 /* section 1 */
 
 .background-section1{
-  background-image: url(../img/home.jpg);
+  background-image: url(../img/bg-home-hero-3.svg);
   background-size: cover;
   height: 400px;
   width: inherit;
+  background-position: bottom;
   /* background-position: bottom; */
 }
 
@@ -63,16 +64,42 @@
 
 .img-carousel{
   width: 500px;
+  min-height:300px;
   margin: auto;
 }
 
-.carousel-control.right{
+/* .carousel-control.right{
   background-color: #F3F5F9;
-}
+} */
 
 .carousel-inner p:nth-child(3){
   text-align: center;
   color: blue;
   font-weight: bolder;
   padding-top: 25px;
+}
+
+/* section 5 */
+.background-section5{
+  height: 300px;
+}
+
+/* section 6 */
+
+.background-section6{
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(29,24,128,0.9895308465182948) 100%);
+  height: 300px;
+}
+
+
+/* section 7 */
+.background-section7{
+  background-color: #F3F5F9;
+  min-height: 500px;
+  width: inherit;
+}
+
+.seconda{
+  margin-bottom: 60px;
 }
