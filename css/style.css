@@ -50,3 +50,29 @@
   min-height: 200px;
   width: inherit;
 }
+
+/* section 3 */
+
+
+/* section 4 */
+.background-section4{
+  background-color: #F3F5F9;
+  min-height: 200px;
+  width: inherit;
+}
+
+.img-carousel{
+  width: 500px;
+  margin: auto;
+}
+
+.carousel-control.right{
+  background-color: #F3F5F9;
+}
+
+.carousel-inner p:nth-child(3){
+  text-align: center;
+  color: blue;
+  font-weight: bolder;
+  padding-top: 25px;
+}
