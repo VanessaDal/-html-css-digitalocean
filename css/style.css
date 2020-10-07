@@ -103,3 +103,18 @@
 .seconda{
   margin-bottom: 60px;
 }
+
+/* section 8 */
+
+.background-section8{
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(29,24,128,0.9895308465182948) 100%);
+  height: 200px;
+}
+
+/* footer */
+.background-footer{
+  background-color: #010E28;
+  min-height: 600px;
+
+}
