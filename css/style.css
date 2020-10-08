@@ -1,8 +1,8 @@
 /* regole di debug */
 [class*="col-"] {
   min-height: 60px;
-  /* background-color: lightgreen;
-  border: 1px solid black; */
+  background-color: lightgreen;
+  border: 1px solid black;
 }
 
 
@@ -22,6 +22,10 @@ h1{
 
 h2,h3,p{
   text-align: center;
+}
+
+ul{
+  list-style: none;
 }
 
 /* nav section */
@@ -159,8 +163,39 @@ input[type=email] , input[type=password]{
   width: inherit;
 }
 
+.logo-img{
+  width: 140px;
+  height: 77px;
+  margin: 0 auto;
+}
+
+.section2 h3:first-child{
+  font-size: 14px;
+  font-weight: bolder;
+  color: #707C98;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.section2 a:last-child{
+  display: block;
+  text-align: center;
+  font-weight: bolder;
+}
+
 /* section 3 */
 
+.vertical-row{
+  border-right: 1px solid blue;
+  width: 5px;
+  min-height: 100px;
+}
+
+.vertical-row>ul>li{
+  padding-top: 8px;
+  color: blue;
+  font-size: 16px;
+}
 
 /* section 4 */
 .background-section4{
