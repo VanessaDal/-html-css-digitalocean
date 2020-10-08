@@ -188,13 +188,24 @@ input[type=email] , input[type=password]{
 .vertical-row{
   border-right: 1px solid blue;
   width: 5px;
-  min-height: 100px;
+  min-height: 120px;
+
 }
 
 .vertical-row>ul>li{
-  padding-top: 8px;
+  padding-top: 10px;
+  padding-bottom: 5px;
   color: blue;
-  font-size: 16px;
+  font-size: 18px;
+  margin-left: -20px;
+}
+
+#icons-section *{
+  text-align: left;
+}
+
+#icons-section{
+  padding-bottom: 40px;
 }
 
 /* section 4 */
