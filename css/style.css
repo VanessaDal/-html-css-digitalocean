@@ -202,6 +202,7 @@ input[type=email] , input[type=password]{
   display: block;
   text-align: center;
   font-weight: bolder;
+  padding: 20px 0;
 }
 
 /* section 3 */
@@ -210,8 +211,24 @@ input[type=email] , input[type=password]{
   min-height: 200px;
 }
 
+.background-section3 h2{
+  padding-top: 40px;
+  font-weight: bolder;
+  color: #031B4E;
+}
+
+.background-section3 h3{
+  font-weight: bolder;
+  padding-bottom: 35px;
+  color: #707D9A;
+  font-size: 19px;
+  margin-left: 5%;
+  margin-right: 5%;
+  line-height: 1.5;
+}
+
 .vertical-row{
-  border-right: 1px solid blue;
+  border-right: 1px solid #707D9A;
   width: 5px;
   min-height: 120px;
 
@@ -220,13 +237,25 @@ input[type=email] , input[type=password]{
 .vertical-row>ul>li{
   padding-top: 10px;
   padding-bottom: 5px;
-  color: blue;
+  color: #707D9A;
   font-size: 18px;
   margin-left: 13px;
 }
 
 #icons-section *{
   text-align: left;
+}
+
+#icons-section h4
+{
+  color: #261783;
+  font-weight: bolder;
+}
+
+#icons-section p{
+  font-weight: bolder;
+  padding-right: 10%;
+  color: #707D9A;
 }
 
 #icons-section{
@@ -238,6 +267,21 @@ input[type=email] , input[type=password]{
   background-color: #F3F5F9;
   min-height: 200px;
   width: inherit;
+  padding-bottom: 40px;
+}
+
+.background-section4 h2{
+  color: #261783;
+  font-weight: bolder;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.background-section4 h3{
+  color: #707D9A;
+  font-size: 18px;
+  font-weight: bolder;
+  padding-bottom: 40px;
 }
 
 .img-carousel{
@@ -264,6 +308,26 @@ input[type=email] , input[type=password]{
 /* section 5 */
 .background-section5{
   min-height: 300px;
+  padding-bottom: 80px;
+}
+
+.background-section5 h2{
+  color: #261783;
+  font-weight: bolder;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.background-section5 h4{
+  color: #261783;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.background-section5 p{
+  font-weight: bolder;
+  color: #707D9A;
+  text-align: left;
 }
 
 /* section 6 */
@@ -272,14 +336,37 @@ input[type=email] , input[type=password]{
   background: rgb(63,94,251);
   background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(29,24,128,0.9895308465182948) 100%);
   min-height: 300px;
+  padding-top: 50px;
+  padding-bottom: 60px;
 }
 
+.background-section6 h2{
+  color: white;
+  font-weight: bolder;
+  padding-bottom: 15px;
+}
+
+.table{
+  color: white;
+}
+
+.table a{
+  color: lightblue;
+}
 
 /* section 7 */
 .background-section7{
   background-color: #F3F5F9;
   min-height: 500px;
   width: inherit;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.background-section7 h2{
+  color: #261783;
+  font-weight: bolder;
+  padding-bottom: 40px;
 }
 
 .seconda{
@@ -298,6 +385,7 @@ input[type=email] , input[type=password]{
   color: white;
   font-weight: bolder;
   padding-top: 55px;
+  margin: 0;
 }
 
 .create-your-account{
@@ -312,7 +400,7 @@ input[type=email] , input[type=password]{
 
 /* footer */
 .background-footer{
-  background-color: #010E28;
+  background-color: #031C4E;
   min-height: 400px;
 }
 
