@@ -246,7 +246,7 @@ input[type=email] , input[type=password]{
 .background-section6{
   background: rgb(63,94,251);
   background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(29,24,128,0.9895308465182948) 100%);
-  height: 300px;
+  min-height: 300px;
 }
 
 
@@ -266,7 +266,23 @@ input[type=email] , input[type=password]{
 .background-section8{
   background: rgb(63,94,251);
   background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(29,24,128,0.9895308465182948) 100%);
-  height: 200px;
+  min-height: 200px;
+}
+
+.background-section8 h2:first-child{
+  color: white;
+  font-weight: bolder;
+  padding-top: 55px;
+}
+
+.create-your-account{
+  display: block;
+  margin: auto;
+  font-size: 16px;
+  font-weight: bolder;
+  color: #98C6FD;
+  padding: 12px 15px;
+  margin-top: 25px;
 }
 
 /* footer */
